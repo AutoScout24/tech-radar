@@ -9,13 +9,15 @@ Blips that are adopted at AutoScout24 by default and are not mentioned in every 
 #### Techniques
 * Blue/Green Deployment
 * Continuous Delivery
-* Infrastructure as
+* Infrastructure as Code
 * Avoid Lockstep Releases
+* Two-Factor auth. for everyone where possible
+* Shadow Traffic
 
 #### Platform
 * Node Js as build tools
 * AWS
-* AWS Lambda
+* Serverless architecture
 * Azure AD
 * CDN
 
@@ -29,7 +31,6 @@ Blips that are adopted at AutoScout24 by default and are not mentioned in every 
 * SBT
 * Dashing.IO
 * Data Dog
-* Elastic Search
 
 #### Languages & Frameworks
 * SCALA
@@ -38,6 +39,7 @@ Blips that are adopted at AutoScout24 by default and are not mentioned in every 
 * SCSS
 * ShowCar
 * Play Framework
+* EcmaScript 6
 
 ## Removed
 Blips removed from the radar without being adopted.
@@ -51,3 +53,10 @@ Blips removed from the radar without being adopted.
 * Caddy Server (ASSESS)
 * Gitrob (HOLD) - replaced by git-secret
 * Codecept.js (HOLD)
+* Spinnaker (ASSESS)
+* ElasticSearch Watcher (ASSESS) - We also have put "Log everything" on hold. Use metrics for metrics and not logging for metrics.
+* Cassandra (ASSESS) - Currently no use case
+* X-Pack Graph (ASSESS) - To expensive
+* Protobuf (ASSESS) - Avro in trial
+* Thrift (ASSESS) - Avro in trial
+* Ratpack (ASSESS) - Nobody investigated
