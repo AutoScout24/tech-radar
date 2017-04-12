@@ -26,7 +26,6 @@ Blips that are adopted at AutoScout24 by default and are not mentioned in every 
 * Elastic Search
 * Kibana
 * Ops Genie
-* Grunt
 * Git
 * SBT
 * Dashing.IO
