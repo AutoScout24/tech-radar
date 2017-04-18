@@ -72,9 +72,3 @@ Blips removed from the radar without being adopted.
 * Protobuf (ASSESS) - Avro in trial
 * Thrift (ASSESS) - Avro in trial
 * Ratpack (ASSESS) - Nobody investigated
-
-
-## Jobs at Scout24
-Join Scout24 today and work with all these cool technologies.
-* [All open job postings](https://scout24.greenhouse.io/)
-* [AutoScout24 Engineering Hiring page](https://autoscout24.github.io/hiring/)
