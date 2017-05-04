@@ -65,7 +65,7 @@ Blips removed from the radar without being adopted.
 * Caddy Server (ASSESS)
 * Gitrob (HOLD) - replaced by git-secret
 * Codecept.js (HOLD)
-* Spinnaker (ASSESS)
+* Spinnaker (ASSESS) - Spinnaker is centered around EC2 but our deployments are based on ASG and soon ECS Services
 * ElasticSearch Watcher (ASSESS) - We also have put "Log everything" on hold. Use metrics for metrics and not logging for metrics.
 * Cassandra (ASSESS) - Currently no use case
 * X-Pack Graph (ASSESS) - To expensive
