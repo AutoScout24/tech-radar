@@ -46,7 +46,7 @@ databases, tools, and services to present a unified view of our entire stack and
 
 
 #### Languages & Frameworks
-* SCALA
+* Scala
 * Javascript
 * REST API (Public)
 * SCSS
