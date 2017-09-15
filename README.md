@@ -6,7 +6,7 @@
 
 ## Defaults
 Blips that are adopted at AutoScout24 by default and are not mentioned in every radar. Most of them are motivated by our 
-[Scout24 IT principals](https://github.com/AutoScout24/scout24-it-principles).
+[Scout24 IT principles](https://github.com/AutoScout24/scout24-it-principles).
 
 #### Techniques
 * Blue/Green Deployment
