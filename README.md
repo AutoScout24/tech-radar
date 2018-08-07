@@ -1,12 +1,18 @@
 # AutoScout24 Technology Radar
 
-* [AutoScout24 Radar Apr 2018 (current)](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1EHsJBo14TBKZqEPrzWJLEjkuMzpo6ID3p_u91sPyxzc)
-* [AutoScout24 Radar Sep 2017](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1qurHghIJVEMTIu0gyCgSEK7pqa3tCnYHmxyG-a7JuE0)
-* [AutoScout24 Radar Apr 2017](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1Qn4O4xft4AvPfxkgz2HHtyC7MDUmG4GTkNUkPXxJ8B8%2Fpubhtml)
-* [AutoScout24 Radar Nov 2016](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F16eELLsZvDuRfBf-YryEXD8UjQlmmRivr3GX919O5V0k%2Fedit%23gid%3D0)
-* [AutoScout24 Radar Apr 2016](http://scout24.github.io/as24-tech-radar-2016/)
+## Current version
+
+* [AutoScout24 Radar Feb 2018](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Feb%25202018%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Feb%202018%20Changes.md))
+
+### Previous versions
+
+* [AutoScout24 Radar Sep 2017](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Sep%25202017%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Sep%202017%20Changes.md))
+* [AutoScout24 Radar Apr 2017](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Apr%25202017%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Apr%202017%20Changes.md))
+* [AutoScout24 Radar Nov 2016](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Nov%25202016%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Nov%202016%20Changes.md))
+* [AutoScout24 Radar Q1 2016](http://scout24.github.io/as24-tech-radar-q1-2016/)
 
 ## Defaults
+
 Blips that are adopted at AutoScout24 by default and are not mentioned in every radar. Most of them are motivated by our
 [Scout24 IT principals](https://github.com/AutoScout24/scout24-it-principles).
 
