@@ -17,16 +17,16 @@ Blips that are adopted at AutoScout24 by default and are not mentioned in every 
 [Scout24 IT principals](https://github.com/AutoScout24/scout24-it-principles).
 
 #### Techniques
-* Blue/Green Deployment
-* [Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)
-*<br>Continuous delivery is our  software engineering approach to support teams in producing software in short cycles and
-ensuring that the software can be reliably released at any time.*
-* [Infrastructure as Code](https://www.thoughtworks.com/de/insights/blog/infrastructure-code-reason-smile)
-*<br>We manage, provision and automate all computer data centers and cloud infrastructure through machine-readable definition
-files: reproducible, traceable, auditable and tested.*
-* Avoid Lockstep Releases
-* Two-Factor auth. for everyone where possible
-* Shadow Traffic
+* **[Blue-Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)**: Blue-green deployment is a technique that reduces downtime and risk by having second production environments running and switching traffic from one to another during deployment.
+* **[Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)**: Continuous delivery is our software engineering approach to support teams in producing software in short cycles and ensuring that the software can be reliably released at any time.
+* **[Infrastructure as Code](https://www.thoughtworks.com/de/insights/blog/infrastructure-code-reason-smile)**: We manage, provision and automate all computer data centers and cloud infrastructure through machine-readable definition files: reproducible, traceable, auditable and tested.
+* **Shadow Traffic**: Testing new services with natural traffic has proven to be a reliable method. Replicating traffic to the shadowed system is easy to implement and allows to test system in real life situations under real load.
+* **Feature Toggles**: There couldn't be a better explanation: <a href="http://martinfowler.com/articles/feature-toggles.html">Pete Hodgson on Martin Fowler's Bliki - Feature Toggles</a>. As we put more and more services into production in new teams, we need emphasize the proper way: The first task in every new story should be to create the release toggle and you are only done, when the toggle is removed.
+* **<a href="https://martinfowler.com/bliki/CircuitBreaker.html">Circuit breaker</a>**: Circuit breaker is a stability pattern for distributed systems. We tried <a href="https://github.com/Netflix/Hystrix">Hystrix</a> and <a href="http://doc.akka.io/docs/akka/current/common/circuitbreaker.html">Akka Circuit Breaker</a>. Hystrix came out as our default circuit breaker tool.
+* **Pre-compute as much as you can**: Many parts of our web site are read heavy, so in a lot of places it makes sense to pre-compute instead of reacting to a request. Examples would be change propagation for listings, static content and CQRS.
+* **Logging using STDOUT**: All running processes log to STDOUT and we use logshipping to export data. As this is industry standard (<a href="https://12factor.net/">twelve-factor apps</a>) we also switch to this approach. This also helps with our adoption of Docker on ECS/Infinity.
+* **State management in the frontend**: Managing, visualising & understanding how state changes in frontend applications is essential for rock solid applications that can scale and are bug-free. We use and strongly recommend <a href="https://redux.js.org/">Redux</a> for both of our React & vanillaJS apps, which not only helps us tackle state management,  but also lets us implement a flux-like architecture with one-way data flow, isolated side effects via middleware and more.
+* **[Multi-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication) where possible**: MFA seriously reduces the incidence of online identity theft and other online fraud, because the victim's password would no longer be enough to give an attacker permanent access to their information.
 
 #### Platforms
 * Node Js as build tools
