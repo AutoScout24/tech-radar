@@ -56,7 +56,7 @@ databases, tools, and services to present a unified view of our entire stack, bu
 * **[Amazon Web Services](https://aws.amazon.com/)**: AWS is our preferred, reliable, scalable, and inexpensive cloud computing service powered by Amazon. We choose AWS platform service over managed service, over self-hosted OSS and over self built solutions.
 * **[Serverless Architectures](https://martinfowler.com/articles/serverless.html)**: We build applications with custom code that is run in ephemeral containers operated by a service provider. These systems significantly reduce operational cost and complexity. Amazon Lambda and Amazon ECS are two examples for serverless services.
 * **[HTTP/2](https://http2.github.io/)** is the next revision of HTTP. The focus of the protocol is on performance; specifically, end-user perceived latency, network and server resource usage.
-* **[Node.js](https://nodejs.org/) for frontend related builds**
+* **[Node.js](https://nodejs.org/) for frontend related builds**: The JavaScript ecosystem excels at providing tooling for bundling and packaging frontend-related code. In particular, webpack can transpile/bundle/minify/lint/format all frontend assets via a broad plugin ecosystem. As such, we recommend using it, together with plain npm scripts, even on non-nodeJS backend codebases such as Scala, instead of using Scala-based web plugins for managing frontend code.
 
 #### Languages & Frameworks
 
