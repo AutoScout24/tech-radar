@@ -1,11 +1,10 @@
 # AutoScout24 Technology Radar
 
-## Current version
+**Note:** this repository is out-of-date (last update 2018). We are working on a updated version and will release it as soon as it's ready.
+
+## Previous versions
 
 * [AutoScout24 Radar Feb 2018](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Feb%25202018%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Feb%202018%20Changes.md))
-
-### Previous versions
-
 * [AutoScout24 Radar Sep 2017](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Sep%25202017%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Sep%202017%20Changes.md))
 * [AutoScout24 Radar Apr 2017](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Apr%25202017%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Apr%202017%20Changes.md))
 * [AutoScout24 Radar Nov 2016](https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2FScout24%2Fas24-tech-radar%2Fmaster%2Fradars%2FAutoScout24%2520Radar%2520Nov%25202016%2520.csv) ([changes since previous version](https://github.com/Scout24/as24-tech-radar/blob/master/radars/AutoScout24%20Radar%20Nov%202016%20Changes.md))
