@@ -5,3 +5,5 @@ vertical: as24
 confidentiality: public
 integrity: false
 availability: false
+owner:
+  - as24-ate-team@autoscout24.com
